@@ -16,7 +16,7 @@ Un des formats privilégiés pour les standards de données est le [CSV](https:/
 L'outil de validation utilisé pour vérifier la conformité d'un fichier csv au standard auquel il fait référence s'appuie sur la structure tabulaire des données. Elles peuvent donc être contenues dans un tableur numérique au format .xls, .xlsx ou .ods ou dans un fichier texte au format .csv, .txt ou autre.
 :::
 
-La question du séparateur utilisé pour séparer deux champs de données dans un fichier .csv n'est donc pas essentielle. Cependant, certains outils se basent sur la valeur de ce séparateur pour traiter et publier des jeux de données. Nous vous proposons donc un certain nombre de recommandations afin de favoriser la généralisation d'un usage contribuant à l'interpoérabilité des données produites. 
+La question du séparateur utilisé pour séparer deux champs de données dans un fichier .csv n'est donc pas essentielle. Cependant, certains outils se basent sur la valeur de ce séparateur pour traiter et publier des jeux de données. Nous vous proposons donc un certain nombre de recommandations afin de favoriser la généralisation d'un usage contribuant à l'interopérabilité des données produites. 
 
 ### Format de fichier csv
 
@@ -30,7 +30,7 @@ Lors de l'ouverture d'un fichier csv dans Calc, une fenêtre modale propose plus
 Dans Excel, il faut aller dans l'onglet données et sélectionner l'option Fichier texte pour accéder à l'assistant d'import des données.
 :::
 
-L’encodage des caractères à privilégier est l'[UTF-8](https://fr.wikipedia.org/wiki/UTF-8) de manière à garantir une **meilleure interopérabilité des données**.
+L’encodage des caractères à privilégier est l'[UTF-8](https://fr.wikipedia.org/wiki/UTF-8) de manière à garantir une **meilleure opérabilité des données**.
 
 Pour faciliter la lecture des fichiers publiés en CSV il est recommandé d'y associer dans les outils de publication le **type MIME ou Content-Type "text/csv"**.
 
